@@ -1,0 +1,77 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.feature-title, .feature-card-title, .header-name {
+    font-weight: bold;
+}
+h3.feature-title {
+    color: #7d97ad;
+}
+.dark-blue {
+    color: #2d3c49;
+}
+
+.img-logo-container {
+    display: block;
+}
+.feature-card-link:visited, .feature-card-link:hover {
+    color: #2d3c49;
+    text-decoration: none;
+}
+@media screen and (max-width: 575px) {
+    .header-name {
+        font-size: 2.3em;
+    }
+    .feature-card-title {
+        font-size: 1.9em;
+    }
+    .feature-title {
+        font-size: 2.1em;
+    }
+    .img-logo {
+        width: 60vw;
+        padding-left: 35vw;
+    }
+}
+@media screen and (min-width: 576px) {
+    .header-name {
+        font-size: 2.4em;
+    }
+    .feature-card-title {
+        font-size: 2.1em;
+    }
+    .feature-title {
+        font-size: 2.2em;
+    }
+    .img-logo {
+        height: 76px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header-name {
+        font-size: 3em;
+    }
+    .feature-card-title {
+        font-size: 2.4em;
+    }
+    .feature-title {
+        font-size: 2.6em;
+    }
+    .img-logo {
+        height: 86px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .header-name {
+        font-size: 3.6em;
+    }
+    .feature-card-title {
+        font-size: 3.2em;
+    }
+    .feature-title {
+        font-size: 2.5em;
+    }
+}
