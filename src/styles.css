@@ -1,13 +1,19 @@
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .feature-title, .feature-card-title, .header-name {
     font-weight: bold;
 }
+
+.header-rule {
+    border-top: 4px solid rgba(125,151,173,0.8)
+}
+
 h3.feature-title {
     color: #7d97ad;
 }
+
 .dark-blue {
     color: #2d3c49;
 }
@@ -15,10 +21,12 @@ h3.feature-title {
 .img-logo-container {
     display: block;
 }
+
 .feature-card-link:visited, .feature-card-link:hover {
     color: #2d3c49;
     text-decoration: none;
 }
+
 @media screen and (max-width: 575px) {
     .header-name {
         font-size: 2.3em;
@@ -31,9 +39,10 @@ h3.feature-title {
     }
     .img-logo {
         width: 60vw;
-        padding-left: 35vw;
+        padding-left: 30vw;
     }
 }
+
 @media screen and (min-width: 576px) {
     .header-name {
         font-size: 2.4em;
@@ -49,6 +58,7 @@ h3.feature-title {
         padding-top: 10px;
     }
 }
+
 @media screen and (min-width: 768px) {
     .header-name {
         font-size: 3em;
@@ -64,6 +74,7 @@ h3.feature-title {
         padding-top: 10px;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .header-name {
         font-size: 3.6em;
